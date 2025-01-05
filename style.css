@@ -1,0 +1,67 @@
+
+/* Reset default browser margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333;  /* Dark background for nav */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;  /* Horizontally display list items */
+    margin: 0 15px;   /* Space between items */
+}
+
+nav ul li a {
+    color: white;        /* White text color */
+    text-decoration: none;  /* Remove underlines from links */
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;  /* Darker background on hover */
+    border-radius: 5px;         /* Rounded corners on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for footer */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add some padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Make the footer span across the full width of the page */
+    font-size: 16px; /* Adjust the font size */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Center the headline text and style it */
+.headline {
+    text-align: center; /* Centers the text horizontally */
+    font-size: 50px; /* Adjust font size */
+    font-family: 'Arial', sans-serif; /* Choose a font */
+    font-weight: bold; /* Make the font bold */
+    color: #333; /* Choose a text color */
+    margin-top: 50px; /* Optional: Add space at the top */
+}
